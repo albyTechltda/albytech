@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Orçamento</title>
+    <link rel="stylesheet" href="css/orçamento.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Solicitação de Orçamento</h1>
+    <form id="orcamentoForm"  action="https://formspree.io/f/xbjnvaqn" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+         <label for="empresa">Nome da Empresa</label>
+            <input type="text" id="empresa" name="empresa" required>
+
+            <label for="nicho">Seu Nicho</label>
+            <input type="text" id="nicho" name="nicho" required>
+
+            <label for="telefone">Número de Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <button type="submit">Enviar</button>
+        </form>
+   </div>
+</body>
+</html>
